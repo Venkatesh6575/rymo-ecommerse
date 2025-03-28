@@ -1,0 +1,436 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px !important;
+
+}
+
+button {
+    font-weight: 700px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.star i {
+    color: gold;
+    margin-top: 10px;
+}
+
+.navbar {
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar img {
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    padding: 0px 20px !important;
+    /* Corrected property name */
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+
+    color: red;
+}
+
+.navbar-nav>.nav-link {
+    padding: 20x;
+}
+
+#home {
+    background-image: url(images/ecommerse/home.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 10px right 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+#one .container{
+    font-weight: bolder;
+    font-size: 700px;
+}
+#home span {
+    color: rgb(47, 0, 255)
+}
+
+#logo .img-fluid {
+    width: 170px;
+
+
+}
+#new .row{
+    margin: 0px;
+    padding:0px;
+}
+.first{
+    overflow: hidden;
+    
+}
+#new .first img {
+    width: 100%;
+    height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    gap: 0px;
+}
+
+
+#new .first .tages {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    transition: 0.3sec ease;
+    color: rgb(8, 8, 8);
+}
+
+#new .first .tages:hover {
+    cursor: pointer;
+    background-color: rgba(245, 178, 178, 0.5);
+    box-shadow: 3px 3px 10px black;
+
+}
+
+#new .first .tages button {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500px;
+    background: none;
+    color: black;
+    border-bottom: 1px solid rgb(53, 52, 52);
+    transform: translateY(90px)
+}
+
+#new .first .tages button:hover {
+    color: whitesmoke;
+    border-bottom: 1px solid white;
+
+}
+
+#new .first:nth-child(1) .tages {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+
+}
+
+#new .first:nth-child(2) .tages {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+
+}
+
+#new .first:nth-child(3) .tages {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+
+}
+#featured{
+    overflow: hidden;
+}
+
+.product img {
+    width: 300px;
+}
+
+.product {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.product img {
+    transition: 0.3s all;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .buy-btn {
+    background-color: orangered;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+
+    transform: translateY(0);
+    opacity: 2;
+
+}
+
+#banner {
+    background-image: url(images/ecommerse/slider.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 80px left 0px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#banner h2 {
+    color: red;
+    padding: 10px;
+}
+
+#banner h5 {
+    padding: 10px;
+}
+
+#banner button {
+    background-color: rgb(236, 98, 48);
+}
+#clothes{
+    overflow: hidden;
+}
+#clothes .product img {
+    width: 100%;
+    height: 60%;
+
+}
+
+#watchs{
+    overflow: hidden;
+}
+
+#watchs .product img {
+    width: 100%;
+    height: 55%;
+    transform: scale(1);
+}
+
+#footwear .product img {
+    width: 100%;
+    height: 55%;
+
+}
+#footwear{
+    overflow: hidden;
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+
+}
+
+footer h5 {
+    color: rgb(245, 96, 10);
+    font-weight: 700px;
+}
+
+footer li {
+    padding: 5px;
+}
+
+footer li a {
+    color: rgb(243, 241, 241);
+}
+
+footer li a:hover {
+    color: rgb(243, 54, 7);
+}
+
+footer p {
+    color: rgb(243, 242, 242);
+}
+
+footer .copyrights a {
+
+    width: 38px;
+    height: 38px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 38px;
+    margin: 0px 5px;
+    transform: scale(1);
+}
+
+footer .copyrights a :hover {
+    transform: scale(1.2);
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.number>input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.buy-btn {
+    background-color: rgb(253, 95, 37);
+    font-size: 16px;
+    color: white;
+    transition: 0.3s all;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+
+.buy-btn:hover {
+    background-color: rgba(247, 73, 4, 0.7);
+    opacity: 1;
+}
+#blog-container .post .post-img {
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+#blog-container .post img{
+   transition: 0.3s ease;
+}
+#blog-container .post h4{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#blog-container .post:hover img{
+    transform: scale(1.3) rotate(-10deg);
+    opacity: 0.8;
+
+}
+#blog-container .post:hover h4{
+    color:rgb(247, 80, 74) ;
+}
+
+/*cart*/
+
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#cart-container table thead{
+    font-weight: 700;
+}
+
+#cart-container table thead td{
+    background-color: rgb(255, 112, 60);
+    padding:10px 0px ;
+    color: white;
+    border: none;
+}
+
+#cart-container table td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#cart-container table td:nth-child(1){
+    width: 100px;
+}
+
+#cart-container table td:nth-child(2)
+#cart-container table td:nth-child(3){
+    width: 200px;
+}
+
+#cart-container table td:nth-child(4)
+#cart-container table td:nth-child(5)
+#cart-container table td:nth-child(6){
+
+    width: 170px;
+}
+
+#cart-container table tbody img{
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+}
+
+#cart-bottom .coopan>div,
+#cart-bottom .total>div{
+    border: 1px solid black;
+
+}
+
+#cart-bottom .coopan h6,
+#cart-bottom .total h5{
+    background-color: rgb(255, 112, 60);
+    padding:10px 15px ;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+#cart-bottom .coopan p,
+#cart-bottom .coopan input{
+    padding: 0px 10px;
+}
+
+#cart-bottom .coopan input{
+    height: 44px;
+    margin: 0px 5px;
+}
+#cart-bottom .coopan button:hover{
+    color: orangered;
+}
+
+#cart-bottom .total div>div{
+    padding: 0px 10px;
+}
+
+#cart-bottom .total div>button{
+    margin: 0 12px 20px 0 ;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+#cart-bottom .total div>button:hover{
+    color: orangered;
+}
